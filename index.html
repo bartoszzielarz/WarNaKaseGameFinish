@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WojnaNaKase</title>
+    <script src="https://kit.fontawesome.com/12c868b0db.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: 'Amatic SC', cursive;
+        }
+
+        h1 {
+            font-size: 6em;
+        }
+
+        .member {
+            position: absolute;
+            top: 50%;
+            /* left: 50%; */
+            /* transform: translate(-50%, -50%); */
+            text-align: center;
+            width: 80%;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: text 2s linear;
+            background-color: coral;
+            color: black;
+            margin-left: 10%;
+            margin-right: 10%;
+            z-index: 1;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 3em;
+            color: slategrey;
+        }
+
+        a:hover {
+            text-shadow: 1px 0 4px #FF0000;
+
+        }
+
+        /* @media (orientation: landscape) {
+            .team img.color {
+                right: 3%;
+                height: 56%;
+            }
+
+            .team img.gray {
+                bottom: -10%;
+                left: -15%;
+                height: 130%;
+            }
+
+            .member {
+                width: 60%;
+                right: 0;
+                left: auto;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .team h1 {
+                font-size: 8rem;
+            }
+
+            .team h2 {
+                font-size: 5rem;
+            }
+        } */
+        /* @keyframes gray {
+            0% {
+                transform: translateX(0) scale(1);
+                opacity: 0;
+            }
+
+            8% {
+                opacity: 0;
+            }
+
+            13% {
+                opacity: .2;
+            }
+
+            87% {
+                opacity: .2;
+            }
+
+            92% {
+                opacity: 0
+            }
+
+            100% {
+                transform: translateX(5%) scale(1.1);
+                opacity: 0;
+            }
+        } */
+
+        @keyframes text {
+            0% {
+                transform: scale(0.2);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="member">
+        <h1>WOJNA NA KASE</h1>
+        <a href="stol.html" target="_blank">GRAMY</a>
+    </div>
+
+</body>
+
+</html>
